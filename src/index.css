@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #fbf9f5;
+    color: #0a1124;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-display);
+  }
+}
+
+.vertical-lr {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.editorial-divider {
+  background: linear-gradient(90deg, rgba(11,19,37,0.03) 0%, rgba(11,19,37,0.2) 50%, rgba(11,19,37,0.03) 100%);
+}
+
+.editorial-divider-light {
+  background: linear-gradient(90deg, rgba(230,215,195,0.05) 0%, rgba(230,215,195,0.35) 50%, rgba(230,215,195,0.05) 100%);
+}
+

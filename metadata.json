@@ -1,0 +1,6 @@
+{
+  "name": "Gaberell Elsbeth Hairdressing",
+  "description": "Independent local hairdressing service by Gaberell Elsbeth at Lommiswilerstrasse 33 in Bellach, Switzerland.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
